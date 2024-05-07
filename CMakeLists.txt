@@ -24,6 +24,10 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
         constants.h
+        ball.h ball.cpp
+
+
+        paddle.h paddle.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET Pong APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
